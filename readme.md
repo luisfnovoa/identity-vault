@@ -1,37 +1,21 @@
-# Kronos Operational Hub: Critical Infrastructure Convergence Lab
+Identity Vault: Secure Hardened Password Generator
 
-An industrial cybersecurity and operations environment designed to bridge the gap between **Biomedical/Process Telemetry**, **OT Control Systems**, and **Secure IT/Database Architecture**. This repository demonstrates cyber-physical resilience by design.
+Overview
 
----
+Identity Vault is a high-security password generator engineered for critical environments. It leverages Python's secrets module, utilizing the operating system's cryptographically secure pseudo-random number generator (CSPRNG) to ensure maximum entropy and resilience against brute-force attacks.
 
-## 🌐 The Convergence of Three Worlds
+Technical Specifications
 
-This architecture unifies three distinct technical disciplines into a single resilient ecosystem:
+Native CSPRNG: Generation powered by the secrets module for cryptographic integrity.
 
-### 1. Biomedical & Process Layer (Safety & Physics)
-* Focuses on the physical impact of telemetry and industrial safety.
-* Monitors critical process variables (e.g., cold chain preservation, chemical boundaries, sensor metrics).
-* Establishes hardware-level constraints that the software layer must never violate.
+Real-time Entropy Calculation: 
 
-### 2. Software & Control Layer (Logic & OT)
-* Handles the communication protocols and operational logic.
-* Emulates PLC (Programmable Logic Controller) states and automation vectors.
-* Orchestrates data pipelines using deterministic scripts and custom control sockets.
+Automatic measurement of password complexity (in bits).
 
-### 3. Database & Network Layer (IT & Identity)
-* Manages the "Crown Jewels"—user authentication, secure API endpoints, and identity protection.
-* Handles high-throughput data storage for real-time telemetry.
-* Hardens the storage layer against unauthorized queries and tampering.
+Security Diagnostics: Immediate classification of protection levels:
 
----
+WEAK: $< 60$ bits.
 
-## 🛠️ Project Structure
+MODERATE: $60-80$ bits.
 
-```text
-📁 python/
-├── 📁 critical-hub/            # Main operational environment
-│   ├── index.html              # Tactical control UI (Frontend dashboard)
-│   ├── plc_sim.py              # OT / PLC Simulation engine
-│   ├── honeypot.py             # Active defense & decoy script
-│   └── attack.py               # Threat vector simulation tool
-└── README.md                   # Repository documentation
+ULTRA-SECURE: $> 80$ bits.

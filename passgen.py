@@ -41,5 +41,5 @@ def generate_hardened_password(length=18, use_upper=True, use_digits=True, use_s
         print("💎 Status: ULTRA-SECURE (Critical Infrastructure / Crypto-resilient grade)")
 
 if __name__ == "__main__":
-    # Default execution: 18 characters with the full tactical arsenal enabled
-    generate_hardened_password(length=18, use_upper=True, use_digits=True, use_special=True)
+    # Aquí es donde cambias los valores para que el programa use 24 caracteres
+    generate_hardened_password(length=24, use_upper=True, use_digits=True, use_special=True)
