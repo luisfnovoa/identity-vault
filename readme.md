@@ -22,5 +22,5 @@ ULTRA-SECURE: $> 80$ bits.
 
 🚀 Usage
 
-![Uploading Captura de pantalla 2026-06-08 203459.png…]()
+<img width="730" height="116" alt="Captura de pantalla 2026-06-08 203459" src="https://github.com/user-attachments/assets/20e1ee43-247e-4833-9e1d-69b5fef47665" />
 
