@@ -1,4 +1,4 @@
-Identity Vault: Secure Hardened Password Generator
+<img width="730" height="116" alt="Captura de pantalla 2026-06-08 203459" src="https://github.com/user-attachments/assets/257897ce-4f44-4545-ab2c-b63897bf096c" />Identity Vault: Secure Hardened Password Generator
 
 Overview
 
@@ -19,3 +19,8 @@ WEAK: $< 60$ bits.
 MODERATE: $60-80$ bits.
 
 ULTRA-SECURE: $> 80$ bits.
+
+🚀 Usage
+
+![Uploading Captura de pantalla 2026-06-08 203459.png…]()
+
